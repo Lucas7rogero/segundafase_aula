@@ -352,3 +352,9 @@ const config = {
 };
 
 const game = new Phaser.Game(config);
+
+//Adicionei os assets a cena 2 e fiz o peprsongaem ser direcionado para a tela de vitória (WInScene) tela quando ele pega a chave e passa na porta.
+
+//Ao player entrar na segunda fase, alterei a velocidade do "enemy", e acrescentei mais um enemy (enemy2).
+
+//Também adicionei uma colião com o segundo inimigo que implementei na cena 2. Ao colidir com o ele, o jogo é redirecionado à tela de GameOver
